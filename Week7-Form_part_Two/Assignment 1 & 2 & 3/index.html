@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <!--Assignment 1-->
+  
+   <div>
+    <form method="get">
+      <div>
+        <label for="username">Username</label>
+        <br>
+        <input
+          required
+          name="username"
+          type="text"
+          id="username"
+          minlength="5"
+          maxlength="20"
+          autofocus >
+      </div>
+        <br>
+      <div>
+        <label for="mail">Email</label>
+        <br>
+        <input
+          type="email"
+          name="email"
+          id="mail"
+          readonly
+          value="o@o.com">
+      </div>
+      <br>
+      <div>
+        <label for="token" hidden>Token</label>
+        <input
+          type="hidden"
+          name="Token"
+          id="token"
+          value="b92f1fc2fce391ad7af633723afd3055">
+      </div> 
+      <br>
+
+     <!-- Assignment 2-->
+
+      <div>
+        <input
+          type="checkbox"
+          value="Planning"
+          name="skills"
+          id="Plan">
+        <label for="Plan">Planning</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          value="Analysis"
+          name="skills"
+          id="Analysis">
+        <label for="Analysis">Analysis</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          value="Advanced Search"
+          name="skills"
+          id="Advanced Search"
+          checked>
+        <label for="Advanced Search">Advanced Search</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          value="Logical Thinking"
+          name="skills"
+          id="Logical Thinking">
+        <label for="Logical Thinking">Logical Thinking</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          value="Problem Solving"
+          name="skills"
+          id="Problem Solving">
+        <label for="Problem Solving">Problem Solving</label>
+      </div>
+      <hr>
+      <div>
+        <input
+          type="radio"
+          value="Front-End Developer"
+          name="job"
+          id="Front-End">
+        <label for="Front-End">Front-End Developer</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          value="Back-End Developer"
+          name="job"
+          id="Back-End">
+        <label for="Back-End">Back-End Developer</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          value="Business Analyst"
+          name="job"
+          id ="Business Analyst"
+          checked>
+        <label for="Business Analyst">Business Analyst</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          value="Project Manager"
+          name="job"
+          id="Project Manager">
+        <label for="Project Manager">Project Manager</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          value="Scrum Master"
+          name="job"
+          id="Scrum Master">
+        <label for="Scrum Master">Scrum Master</label>
+      </div>
+      <br>
+
+      <!--Assignment 3-->
+
+      <div>
+        <label for="choose">Choose Book</label>
+        <select name="choose book" id="choose">
+          <optgroup label="PHP">
+            <option value="5">v5.0</option>
+            <option value="7">v7.0</option>
+            <option value="8">v8.0</option>
+          </optgroup>
+          <optgroup label="python">
+            <option value="2">v2.0</option>
+            <option value="3">v3.0</option>
+            <option value="3.9">v3.9</option>
+          </optgroup>
+        </select>
+      </div>
+      <br>
+      <div>
+        <textarea name="brief" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Send">
+        <input type="reset" value="Empty">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
