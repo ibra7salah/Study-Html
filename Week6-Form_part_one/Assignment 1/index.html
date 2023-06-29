@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="test.py" method="post">
+        <div>
+          <label>username</label>
+          <br>
+          <input type="text" placeholder="username" required name="username">
+        </div>
+        <hr>
+        <div>
+          <label>Password</label>
+          <br>
+          <input type="password"  placeholder="password" name="password">
+        </div>
+        <hr>
+        <div>
+          <label>Email</label>
+          <br>
+          <input type="email" required placeholder="email" name="mail">
+        </div>
+        <hr>
+        <div>
+          <label>Mobile</label>
+          <br>
+          <input type="tel" placeholder="+20100 (234) 123" pattern="+20100 (234) 123" name="Mobile">
+        </div>
+        <hr>
+        <div>
+          <label>Subject</label>
+          <br>
+          <input type="text" placeholder="your Subject" name="Subject">
+        </div>
+        <br>
+          <input type="hidden" value="5645" >
+        <div>
+          <input type="submit" value="Send Data">
+          <input type="reset" value="Empty form">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
